@@ -6,7 +6,7 @@ submitBtn.addEventListener('click', (e) => {
 	let name = document.getElementById('name').value.trim();
 	let age = document.getElementById('age').value.trim();
 	if(name === '' || age === ''){
-		alert('Please enter valid details.');
+		alert('Please enter valid details');
 		return;
 	}
 	const ageNum = parseInt(age);
